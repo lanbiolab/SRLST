@@ -43,8 +43,9 @@ After the environment being created and activated,[PyTorch](https://pytorch.org/
 #install torch using pip 
 bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-
+```
 download the '.whl' file of torch_scatter and torch_sparse from [pytorch-geometric](https://pytorch-geometric.com/whl/).
+```
 #install torch_scatter and torch_sparse using pip 
 bash
 pip install torch_scatter-2.1.2+pt27cpu-cp311-cp311-win_amd64.whl
