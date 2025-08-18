@@ -1,0 +1,39 @@
+name: slist
+channels:
+  - bioconda
+  - pytorch
+  - conda-forge
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.11.0
+  - python_abi=3.11
+  - pip
+  - cudatoolkit=10.2  # 10.2 is ok for 1.7.0-1.11.0
+  - numpy=1.26.4
+  - python-igraph=0.11.9
+  - pytorch::pytorch # add channel prefix (pytorch::) to make sure the cuda version being installed
+  - scipy=1.15.2
+  - pandas=2.3.0
+  - hpack=4.1.0
+  - krb5=1.21.3
+  - louvain=0.8.2
+  - matplotlib=3.10.0
+  - matplotlib-base=3.10.0
+  - torch-geometric=2.6.1
+  - scikit-learn=1.7.1
+  - scikit-image=0.25.2
+  - leidenalg=0.10.2
+  - scikit-network==0.33.3
+  - scanpy=1.11.4
+  - numba=0.59.1
+  - pip:
+      - opencv-python==4.11.0.86
+      - rpy2==3.6.1
+      - rpy2-rinterface==3.6.1
+      - rpy2-robjects==3.6.1
+      - scikit-misc==0.5.1
+      - sympy==1.13.1
+      - tzlocal==5.3.1
